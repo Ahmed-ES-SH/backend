@@ -19,6 +19,7 @@ class BlogPost extends Model
         'published_date',
         'category',
         'tags',
+        'image',
         'images',
         'status',
         'views',
