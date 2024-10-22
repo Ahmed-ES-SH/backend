@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('testimonials', function (Blueprint $table) {
             $table->id();
             $table->string('client_name'); // اسم العميل
-            $table->string('client_image'); // رابط صورة العميل
+            $table->string('image'); // رابط صورة العميل
             $table->text('content'); // محتوى الرأي
             $table->timestamps(); // الوقت الذي تم فيه الإنشاء والتحديث
         });
